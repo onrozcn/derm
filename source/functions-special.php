@@ -351,3 +351,20 @@ function unique_multidim_array($array, $key) {
     }
     return $temp_array;
 }
+
+function AddLogToTxt($fileName, $line, $maxLine = 50) {
+    // Remove Empty Spaces
+    $file = array_filter(array_map("trim", file($fileName)));
+
+    // Make Sure you always have maximum number of lines
+    $file = array_slice($file, 0, $maxLine);
+
+    // Remove any extra line
+    count($file) >= $maxLine and array_shift($file);
+
+    // Add new Line
+    array_push($file, $line);
+
+    // Save Result
+    file_put_contents($fileName, implode(PHP_EOL, array_filter($file)));
+}
