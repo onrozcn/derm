@@ -75,6 +75,7 @@ $PermissionListOfFirm = array(
         'fields' => array(
             array('TELEGRAMgvnAracGiriscikis', 'Telegram Araç Giriş/Çıkış Bildirimi', 'Telegram bildirimi'),
             array('TELEGRAMdepYakit', 'Telegram Yakit Depo Giriş/Çıkış Bildirimi', 'Telegram bildirimi'),
+            array('TELEGRAMipcamera', 'Telegram Ipcamera Bildirimi', 'Telegram bildirimi'),
         )
     ),
 );
