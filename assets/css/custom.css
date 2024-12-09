@@ -1,0 +1,462 @@
+@media (min-width: 1539px) {
+    .kt-container.kt-container--fluid {
+        padding: 0 25px;
+    }
+}
+
+
+
+
+
+/*---------------------------------------------------------------------------*
+ * typeahead.js Fix
+ *---------------------------------------------------------------------------*/
+.tt-cursor { background: rgba(5, 35, 18, 0.18); }
+#scrollable-dropdown-menu .tt-open { max-height: 348px; overflow-y: auto; }
+.empty-typeahead { padding: 15px 10px; }
+/*---------------------------------------------------------------------------*
+ * Tablo ici btn duzenleme
+ *---------------------------------------------------------------------------*/
+.derm-table {
+    white-space: nowrap !important;
+    font-size: 1rem;
+}
+.derm-table td {
+    vertical-align: middle;
+    padding: 0.4rem 0.6rem;
+}
+.derm-table td .btn-icon{
+    width: 30px !important;
+    height: 28px !important;
+    padding: 0 !important;
+    margin: -15px 0;
+}
+.derm-btn-td {
+    width: 30px !important;
+    height: 20px !important;
+    padding: 0 !important;
+}
+.derm-btn-td i {
+    font-size: 1rem !important;
+}
+.table thead th {
+    background-color: #ffffff;
+    font-weight: 700;
+    padding: 0.4rem;
+    text-align: center;
+}
+
+
+.btn-group-xs > .btn, .btn-xs {
+    padding: .25rem .4rem !important;
+    font-size: .875rem !important;
+    line-height: .5 !important;
+    border-radius: .2rem !important;
+}
+
+/*---------------------------------------------------------------------------*
+ * derm loading action
+ *---------------------------------------------------------------------------*/
+.derm-loading {
+    background: url(../media/logos/loading.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0 auto;
+    /*background-image: url(../../assets/theme/img/logo/loading.gif);*/
+    text-align: center;
+    height: 61px;
+    width: 136px;
+    position: relative;
+}
+.derm-loading:before {
+    content: "YÜKLENİYOR";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #ffffff;
+    opacity: 0.5;
+}
+
+/*---------------------------------------------------------------------------*
+/*---------------------------------------------------------------------------*
+/*---------------------------------------------------------------------------*/
+/*.loading-blur > *:not(#loading-base) {*/
+/*    filter: blur(3px);*/
+/*    overflow: hidden;*/
+/*}*/
+.loading-start-blur > *:not(#loading-base) {
+    animation: breath-start 2s ease 0s infinite;
+    -webkit-animation: breath-start 2s ease 0s infinite;
+    -moz-animation: breath-start 2s ease 0s infinite;
+    overflow: hidden;
+    filter: blur(4px);
+}
+
+
+
+#loading-base {
+    display: block;
+    visibility: visible;
+    position: absolute;
+    z-index: 998;
+    width: 100%;
+    height: 100%;
+    opacity: 0.6;
+    overflow: hidden;
+}
+
+#loading-box {
+    display: block;
+    visibility: visible;
+    z-index: 999;
+    width:300px;
+    height:120px;
+    position: fixed;
+    background-color: #fff;
+    left: 50%;
+    top: 50%;
+    margin-left: -150px;
+    margin-top: -60px;
+
+    border-radius: 10px;
+    -webkit-box-shadow: 10px 10px 35px -5px rgba(0,0,0,0.8);
+    -moz-box-shadow: 10px 10px 35px -5px rgba(0,0,0,0.8);
+    box-shadow: 10px 10px 35px -5px rgba(0,0,0,0.8);
+}
+#loading-box i {
+    display: block;
+    height: 70%;
+    width: 100%;
+    text-align: center;
+    color: black;
+    font-size: 4rem;
+    padding-top: 10px;
+}
+
+#loading-box .text {
+    display: block;
+    height: 30%;
+    width: 100%;
+    text-align: center;
+    color: black;
+    font-size: 14px;
+    padding-top: 3px;
+}
+
+
+@keyframes breath-start {
+    0% {
+        -webkit-filter: blur(4px);
+        -moz-filter: blur(4px);
+        -o-filter: blur(4px);
+        -ms-filter: blur(4px);
+    }
+    50% {
+        -webkit-filter: blur(12px);
+        -moz-filter: blur(12px);
+        -o-filter: blur(12px);
+        -ms-filter: blur(12px);
+
+    }
+    100% {
+        -webkit-filter: blur(4px);
+        -moz-filter: blur(4px);
+        -o-filter: blur(4px);
+        -ms-filter: blur(4px);
+    }
+}
+/*---------------------------------------------------------------------------*
+/*---------------------------------------------------------------------------*
+/*---------------------------------------------------------------------------*/
+
+
+
+
+
+/*---------------------------------------------------------------------------*
+ * Full Screen Modal
+ *---------------------------------------------------------------------------*/
+.modal-fs {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+}
+.modal-fs .modal-dialog {
+    position: fixed;
+    margin: 0;
+    max-width: 100%;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+}
+.modal-fs .modal-dialog .modal-content {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border: 0;
+    border-radius: 0 !important;
+    box-shadow: none;
+}
+.modal-fs .modal-dialog .modal-content .modal-header {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 50px;
+    padding: 10px;
+    background-image: linear-gradient(to right top, rgb(32, 15, 109), rgb(233, 30, 99) 180%);
+    border: 0;
+    border-radius: 0 !important;
+}
+.modal-fs .modal-dialog .modal-content .modal-header .modal-title {
+    font-weight: normal;
+    font-size: 1.5rem;
+    color: #ffffff;
+    line-height: 30px;
+    text-align: center;
+}
+.modal-fs .modal-dialog .modal-content .modal-header button {
+    /* padding: 27px !important; */
+}
+.modal-fs .modal-dialog .modal-content .modal-body {
+    position: absolute;
+    top: 50px;
+    bottom: 60px;
+    width: 100%;
+    overflow: auto;
+    background: #ffffff;
+}
+.modal-fs .modal-dialog .modal-content .modal-footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 60px;
+    padding: 10px;
+    background: #f1f3f5;
+}
+/*---------------------------------------------------------------------------*
+ * Top Screen Modal
+ *---------------------------------------------------------------------------*/
+.modal-ts {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+}
+.modal-ts .modal-dialog {
+    position: fixed;
+    top: 0;
+    margin: 0;
+    max-width: 100%;
+    width: 100%;
+    height: 50%;
+    padding: 0;
+}
+.modal-ts .modal-dialog .modal-content {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border: 0;
+    border-radius: 0 !important;
+    box-shadow: none;
+}
+.modal-ts .modal-dialog .modal-content .modal-header {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 50px;
+    padding: 10px;
+    background-image: linear-gradient(to right top, rgb(32, 15, 109), rgb(233, 30, 99) 180%);
+    border: 0;
+    border-radius: 0 !important;
+}
+.modal-ts .modal-dialog .modal-content .modal-header .modal-title {
+    font-weight: normal;
+    font-size: 1.5rem;
+    color: #ffffff;
+    line-height: 30px;
+    text-align: center;
+}
+.modal-ts .modal-dialog .modal-content .modal-header button {
+    /* padding: 27px !important; */
+}
+.modal-ts .modal-dialog .modal-content .modal-body {
+    position: absolute;
+    top: 50px;
+    /*bottom: 60px;*/
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background: #ffffff;
+}
+.modal-ts .modal-dialog .modal-content .modal-footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 60px;
+    padding: 10px;
+    background: #f1f3f5;
+}
+/*.modal-open {*/
+/*    overflow: hidden !important;*/
+/*}*/
+/*---------------------------------------------------------------------------*
+ * Left Screen Modal
+ *---------------------------------------------------------------------------*/
+.modal-ls {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+}
+.modal-ls .modal-dialog {
+    position: fixed;
+    top: 0;
+    margin: 0;
+    max-width: 400px;
+    width: 400px;
+    height: 100%;
+    padding: 0;
+}
+.modal-ls .modal-dialog .modal-content {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border: 0;
+    border-radius: 0 !important;
+    box-shadow: none;
+}
+.modal-ls .modal-dialog .modal-content .modal-header {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 50px;
+    padding: 10px;
+    background-image: linear-gradient(to right top, rgb(32, 15, 109), rgb(233, 30, 99) 180%);
+    border: 0;
+    border-radius: 0 !important;
+}
+.modal-ls .modal-dialog .modal-content .modal-header .modal-title {
+    font-weight: normal;
+    font-size: 1.5rem;
+    color: #ffffff;
+    line-height: 30px;
+    text-align: center;
+}
+.modal-ls .modal-dialog .modal-content .modal-header button {
+    /* padding: 27px !important; */
+}
+.modal-ls .modal-dialog .modal-content .modal-body {
+    position: absolute;
+    top: 50px;
+    /*bottom: 60px;*/
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background: #ffffff;
+}
+.modal-ls .modal-dialog .modal-content .modal-footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 60px;
+    padding: 10px;
+    background: #f1f3f5;
+}
+/*---------------------------------------------------------------------------*
+ * Page Scroll
+ *---------------------------------------------------------------------------*/
+#pageButtonUp {
+    display: inline-block;
+    background-color: #FF9800;
+    width: 45px;
+    height: 40px;
+    text-align: center;
+    border-radius: 4px 0 0 4px;
+    position: fixed;
+    bottom: 80px;
+    right: 0px;
+    transition: background-color .3s,
+    opacity .5s, visibility .5s;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 1000;
+}
+#pageButtonUp::after {
+    content: "\f077";
+    font-family: "Font Awesome 6 Pro";
+    font-weight: normal;
+    font-style: normal;
+    font-size: 2em;
+    line-height: 40px;
+    color: #fff;
+}
+#pageButtonUp:hover {
+    cursor: pointer;
+    background-color: #333;
+}
+#pageButtonUp:active {
+    background-color: #555;
+}
+#pageButtonUp.show {
+    opacity: 1;
+    visibility: visible;
+}
+
+
+#pageButtonDown {
+    display: inline-block;
+    background-color: #FF9800;
+    width: 45px;
+    height: 40px;
+    text-align: center;
+    border-radius: 4px 0 0 4px;
+    position: fixed;
+    bottom: 30px;
+    right: 0px;
+    transition: background-color .3s,
+    opacity .5s, visibility .5s;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 1000;
+}
+#pageButtonDown::after {
+    content: "\f078";
+    font-family: "Font Awesome 6 Pro";
+    font-weight: normal;
+    font-style: normal;
+    font-size: 2em;
+    line-height: 40px;
+    color: #fff;
+}
+#pageButtonDown:hover {
+    cursor: pointer;
+    background-color: #333;
+}
+#pageButtonDown:active {
+    background-color: #555;
+}
+#pageButtonDown.show {
+    opacity: 1;
+    visibility: visible;
+}
+

@@ -1,0 +1,24 @@
+{
+   "short_name": "dERM",
+   "name": "dERM",
+   "icons": [
+      {
+         "src": "assets/media/favicon/android-chrome-192x192.png",
+         "sizes":"192x192",
+         "type":"image/png"
+      },
+      {
+         "src": "assets/media/favicon/android-chrome-512x512.png",
+         "sizes": "512x512",
+         "type": "image/png"
+      }
+   ],
+   "start_url-sslsunucudakullan": "/index.php?source=pwa",
+   "start_url": "/derm/index.php?source=pwa",
+   "Scope-sslsunucudakullan": "/",
+   "Scope": "/derm/",
+   "display": "standalone",
+   "background_color": "#ff0000",
+   "theme_color": "#131313",
+   "orientation": "portrait"
+}

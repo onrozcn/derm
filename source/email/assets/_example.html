@@ -1,0 +1,1664 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		<title>StockGenius</title>
+		
+		<style type="text/css">
+			/* Client-specific Styles */
+			#outlook a {padding:0;} /* Force Outlook to provide a "view in browser" menu link. */
+			body{width:100% !important; -webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; margin:0; padding:0; background-color: #F7F7F7;}
+			/* Prevent Webkit and Windows Mobile platforms from changing default font sizes, while not breaking desktop design. */
+			.ExternalClass {width:100%;} /* Force Hotmail to display emails at full width */
+			.ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div {line-height: 100%;} /* Force Hotmail to display normal line spacing.  More on that: http://www.emailonacid.com/forum/viewthread/43/ */
+			#backgroundTable {margin:0; padding:0; width:100% !important; line-height: 100% !important;}
+			img {outline:none; text-decoration:none;border:none; -ms-interpolation-mode: bicubic;}
+			a img {border:none;}
+			.image_fix {display:block;}
+			p {margin: 0px 0px !important;}
+			table td {border-collapse: collapse;}
+			table { border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt; }
+			a {color: #33b9ff;text-decoration: none;text-decoration:none!important;}
+			/*STYLES*/
+			table[class=full] { width: 100%; clear: both; }
+			/*IPAD STYLES*/
+			@media only screen and (max-width: 640px) {
+			a[href^="tel"], a[href^="sms"] {
+			text-decoration: none;
+			color: #33b9ff; /* or whatever your want */
+			pointer-events: none;
+			cursor: default;
+			}
+			.mobile_link a[href^="tel"], .mobile_link a[href^="sms"] {
+			text-decoration: default;
+			color: #33b9ff !important;
+			pointer-events: auto;
+			cursor: default;
+			}
+			table[class=devicewidth] {width: 440px!important;text-align:center!important;}
+			table[class=devicewidthinner] {width: 420px!important;text-align:center!important;}
+			table[class=devicewidthinnerinner] {width: 400px!important;text-align:left!important;}
+			img[class=banner] {width: 440px!important;height:176px!important;}
+			}
+			/*IPHONE STYLES*/
+			@media only screen and (max-width: 480px) {
+			a[href^="tel"], a[href^="sms"] {
+			text-decoration: none;
+			color: #33b9ff; /* or whatever your want */
+			pointer-events: none;
+			cursor: default;
+			}
+			.mobile_link a[href^="tel"], .mobile_link a[href^="sms"] {
+			text-decoration: default;
+			color: #33b9ff !important; 
+			pointer-events: auto;
+			cursor: default;
+			}
+			table[class=devicewidth] {width: 360px!important;text-align:center!important;}
+			table[class=devicewidthinner] {width: 340px!important;text-align:center!important;}
+			table[class=devicewidthinnerinner] {width: 320px!important;text-align:left!important;}
+			td[class="padding-top-right15"]{padding:15px 15px 0 0 !important;}
+			td[class="padding-right15"]{padding-right:15px !important;}
+			img[class=banner] {width: 360px!important;height:144px!important;}
+			}
+		</style>
+	</head>
+	<body>
+
+
+
+
+
+<!-- begin header -->
+<table width="100%" bgcolor="#0476c7" cellpadding="0" cellspacing="0" border="0" id="backgroundTable" st-sortable="header">
+	<tbody>
+		<tr>
+			<td>
+				<table width="600" cellpadding="0" cellspacing="0" border="0" align="center" class="devicewidth">
+					<tbody>
+						<tr>
+							<td width="100%">
+								<table width="600" bgcolor="#1188dc" cellpadding="0" cellspacing="0" border="0" align="center" class="devicewidth">
+									<tbody>
+										<tr>
+											<td>
+												<!-- begin logo -->
+												<table bgcolor="#ffffff" width="140" align="left" border="0" cellpadding="0" cellspacing="0" class="devicewidth">
+													<tbody>
+														<tr>
+															<td width="140" height="50" align="center">
+																<div class="imgpop">
+																	<a target="_blank" href="#">
+																	<img src="http://www.theusamarble.com/_depot/stockgenius/phpmailer/img/usa-header-white.jpg" alt="" border="0" width="140" height="50" style="display:block; border:none; outline:none; text-decoration:none;">
+																	</a>
+																</div>
+															</td>
+														</tr>
+													</tbody>
+												</table>
+												<!-- end logo -->
+												<!-- begin subject -->
+												<table bgcolor="#1188dc" width="250" height="50" border="0" align="right" valign="middle" cellpadding="0" cellspacing="0" border="0" class="devicewidth">
+													<tbody>
+														<tr>
+															<td height="50" align="center" valign="middle" style="font-family: Helvetica, arial, sans-serif; font-size: 13px; font-weight: bold; color: #ffffff" st-content="menu">Daily Shipping List 2018-12-10
+															</td>
+														</tr>
+													</tbody>
+												</table>
+												<!-- end subject -->
+											</td>
+										</tr>
+									</tbody>
+								</table>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</td>
+		</tr>
+	</tbody>
+</table>
+<!-- end header -->
+
+
+
+
+<!-- Start of main-banner -->
+<table width="100%" bgcolor="#f7f7f7" cellpadding="0" cellspacing="0" border="0" id="backgroundTable" st-sortable="banner">
+	<tbody>
+		<tr>
+			<td>
+				<table width="600" cellpadding="0" cellspacing="0" border="0" align="center" class="devicewidth">
+					<tbody>
+						<tr>
+							<td width="100%">
+								<table width="600" align="center" cellspacing="0" cellpadding="0" border="0" class="devicewidth">
+									<tbody>
+										<tr>
+											<!-- start of image -->
+											<td align="center" st-image="banner-image">
+												<div class="imgpop">
+													<img width="600" border="0" height="240" alt="" border="0" style="display:block; border:none; outline:none; text-decoration:none;" src="
+														https://chart.apis.google.com/chart?
+														cht=bvg
+														&chd=t:80900.5,55658.80,24564.56,38985.66,65045.22,69578.12,105000.15
+														&chds=a
+														&chxt=x
+														&chs=600x240
+														&chco=ffad17|1188dc|1188dc|1188dc|1188dc|1188dc|ffad17
+														&chbh=77
+														&chl=Mar+5+Sun|Mar+6|Mar+7|Mar+8|Mar+9|Mar+10|Mar+11
+														&chtt=StockGenius+Last+7+Days+Statics
+														&chts=000000,20
+														&chf=bg,s,f7f7f7
+														&chm=N*cUSD1*,000000,0,-1,14
+														" class="banner">
+												</div>
+											</td>
+										</tr>
+									</tbody>
+								</table>
+								<!-- end of image -->
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</td>
+		</tr>
+	</tbody>
+</table>
+<!-- End of main-banner --> 
+
+
+
+
+
+<!-- begin textarea with table -->
+<table width="100%" bgcolor="#f7f7f7" cellpadding="0" cellspacing="0" border="0" id="backgroundTable" st-sortable="left-image">
+	<tbody>
+		<tr>
+			<td height="11" style="font-size:1px; line-height:1px; mso-line-height-rule: exactly;">&nbsp;</td>
+		</tr>
+		<tr>
+			<td>
+				<table width="600" cellpadding="0" cellspacing="0" border="0" align="center" class="devicewidth">
+					<tbody>
+						<tr>
+							<td width="100%">
+								<table bgcolor="#ffffff" width="600" cellpadding="0" cellspacing="0" border="0" align="center" class="devicewidth">
+									<tbody>
+										<tr>
+											<td height="15" style="font-size:1px; line-height:1px; mso-line-height-rule: exactly;">&nbsp;</td>
+										</tr>
+										<tr>
+											<td>
+												<table width="550" cellpadding="0" cellspacing="0" border="0" align="center" class="devicewidth">
+													<tbody>
+														<tr>
+															<td>
+																<table width="550" align="right" border="0" cellpadding="0" cellspacing="0" class="devicewidthinner">
+																	<tbody>
+																		<tr>
+																			<td style="font-family: Helvetica, arial, sans-serif; font-size: 16px; color: #2d2a26; text-align:left; line-height: 16px;" class="padding-top-right15">
+																			  textarea with table Title
+																			</td>
+																		</tr>
+																		<tr>
+																			<td width="100%" height="8" style="font-size:1px; line-height:1px; mso-line-height-rule: exactly;">&nbsp;</td>
+																		</tr>
+																		<tr>
+																			<td style="font-family: Helvetica, arial, sans-serif; font-size: 14px; color: #7a6e67; text-align:left; line-height: 24px;" class="padding-right15">
+																				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+																				tempor incididunt ut labore et dolore <strong>magna</strong> 
+																			</td>
+																		</tr>
+																		<tr>
+																			<td width="100%" height="9" style="font-size:1px; line-height:1px; mso-line-height-rule: exactly;">&nbsp;</td>
+																		</tr>
+																		<tr>
+																			<td>
+																				<table width="100%" cellpadding="5" cellspacing="0" border="2" bordercolor="#e9e9e9" align="left" class="devicewidthinnerinner" style="font-family: Helvetica, arial, sans-serif; font-size: 12px; color: #7a6e67; line-height: 15px; border: 2px solid #e9e9e9;">
+																					<thead>
+																						<tr>
+																							<th>Baslik 1</th>
+																							<th>Baslik 2</th>
+																							<th>Baslik 3</th>
+																							<th>Baslik 4</th>
+																							<th>Baslik 5</th>
+																						</tr>
+																					</thead>
+																					<tbody>
+																						<tr>
+																							<td>Mmmm</td>
+																							<td>Mmmm</td>
+																							<td>Mmmm</td>
+																							<td>Mmmm</td>
+																							<td>Mmmm</td>
+																						</tr>
+																						<tr>
+																							<td>OoO</td>
+																							<td>OoO</td>
+																							<td>OoO</td>
+																							<td>OoO</td>
+																							<td>OoO</td>
+																						</tr>
+																						<tr>
+																							<td>cCc</td>
+																							<td>cCc</td>
+																							<td>cCc</td>
+																							<td>cCc</td>
+																							<td>cCc</td>
+																						</tr>
+																					</tbody>
+																				</table>
+																			</td>
+																		</tr>
+																		<tr>
+																			<td width="100%" height="12" style="font-size:1px; line-height:1px; mso-line-height-rule: exactly;">&nbsp;</td>
+																		</tr>
+																		<tr>
+																			<td style="font-family: Helvetica, arial, sans-serif; font-size: 14px; color: #7a6e67; text-align:left; line-height: 14px;" class="padding-right15">
+																				&mdash; Onur OZCAN
+																			</td>
+																		</tr>
+																		<tr>
+																			<td width="100%" height="10" style="font-size:1px; line-height:1px; mso-line-height-rule: exactly;">&nbsp;</td>
+																		</tr>
+																		<tr>
+																			<td style="font-family: Helvetica, arial, sans-serif; font-size: 11px; color: #c1bfbd; text-align:left; line-height: 15px;" class="padding-right15">
+																				Bu e-mail size ototmatik olarak gonderilmistir. Setting the task as completed will automatically generate a new task and display an e-mail message containing your boilerplate text. Click Send to send the message.
+																			</td>
+																		</tr>
+																		<tr>
+																			<td width="100%" height="12" style="font-size:1px; line-height:1px; mso-line-height-rule: exactly;">&nbsp;</td>
+																		</tr>
+																	</tbody>
+																</table>
+															</td>
+														</tr>
+													</tbody>
+												</table>
+											</td>
+										</tr>
+										<tr>
+											<td height="8" style="font-size:1px; line-height:1px; mso-line-height-rule: exactly;">&nbsp;</td>
+										</tr>
+										<tr>
+											<td height="8" bgcolor="#0476c7" style="font-size:1px; line-height:1px; mso-line-height-rule: exactly;">&nbsp;</td>
+										</tr>
+									</tbody>
+								</table>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</td>
+		</tr>
+		<tr>
+			<td height="11" style="font-size:1px; line-height:1px; mso-line-height-rule: exactly;">&nbsp;</td>
+		</tr>
+	</tbody>
+</table>
+<!-- end textarea with table -->
+
+
+
+
+
+<!-- begin backgoundtext -->
+<table width="100%" bgcolor="#fcfcfc" cellpadding="0" cellspacing="0" border="0" id="backgroundTable" st-sortable="full-text">
+	<tbody>
+		<tr>
+			<td>
+				<table width="600" cellpadding="0" cellspacing="0" border="0" align="center" class="devicewidth">
+					<tbody>
+						<tr>
+							<td width="100%">
+								<table width="600" cellpadding="0" cellspacing="0" border="0" align="center" class="devicewidth">
+									<tbody>
+										<!-- spacing -->
+										<tr>
+											<td height="20" style="font-size:1px; line-height:1px; mso-line-height-rule: exactly;">&nbsp;</td>
+										</tr>
+										<!-- spacing -->
+										<tr>
+											<td>
+												<table width="550" align="center" cellpadding="0" cellspacing="0" border="0" class="devicewidthinner">
+													<tbody>
+														<!-- spacing -->
+														<tr>
+															<td width="100%" height="20" style="font-size:1px; line-height:1px; mso-line-height-rule: exactly;">&nbsp;</td>
+														</tr>
+														<!-- spacing -->
+														<!-- begin backgoundtext title -->
+														<tr>
+															<td style="font-family: Helvetica, arial, sans-serif; font-size: 20px;font-weight:bold; color: #000000; text-align:center; line-height: 24px;">
+																Lorem ipsum dolor sit amet, consectetur112
+															</td>
+														</tr>
+														<!-- end backgoundtext title -->
+														<!-- spacing -->
+														<tr>
+															<td width="100%" height="15" style="font-size:1px; line-height:1px; mso-line-height-rule: exactly;">&nbsp;</td>
+														</tr>
+														<!-- spacing -->
+														<!-- begin backgoundtext content -->
+														<tr>
+															<td style="font-family: Helvetica, arial, sans-serif; font-size: 14px; color: #797979; text-align:center; line-height: 24px;">
+																Lorem ipsum dolor sit amet, consectetur <strong>adipisicing</strong> elit, sed do eiusmod
+															</td>
+														</tr>
+														<!-- end backgoundtext content -->
+														<!-- spacing -->
+														<tr>
+															<td width="100%" height="20" style="font-size:1px; line-height:1px; mso-line-height-rule: exactly;">&nbsp;</td>
+														</tr>
+														<!-- spacing -->
+													</tbody>
+												</table>
+											</td>
+										</tr>
+										<!-- spacing -->
+										<tr>
+											<td height="20" style="font-size:1px; line-height:1px; mso-line-height-rule: exactly;">&nbsp;</td>
+										</tr>
+										<!-- spacing -->
+									</tbody>
+								</table>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</td>
+		</tr>
+	</tbody>
+</table>
+<!-- end backroundtext -->
+
+
+
+
+
+<!-- begin leftimagetext -->
+<table width="100%" bgcolor="#f7f7f7" cellpadding="0" cellspacing="0" border="0" id="backgroundTable" st-sortable="left-image">
+	<tbody>
+		 <tr>
+			<td height="11" style="font-size:1px; line-height:1px; mso-line-height-rule: exactly;">&nbsp;</td>
+		</tr>
+		<tr>
+			<td>
+				<table width="600" cellpadding="0" cellspacing="0" border="0" align="center" class="devicewidth">
+					<tbody>
+						<tr>
+							<td width="100%">
+								<table bgcolor="#ffffff" width="600" cellpadding="0" cellspacing="0" border="0" align="center" class="devicewidth">
+									<tbody>
+										<!-- spacing -->
+										<tr>
+											<td height="20" style="font-size:1px; line-height:1px; mso-line-height-rule: exactly;">&nbsp;</td>
+										</tr>
+										<!-- spacing -->
+										<tr>
+											<td>
+												<table width="550" cellpadding="0" cellspacing="0" border="0" align="center" class="devicewidth">
+													<tbody>
+														<tr>
+															<td>
+																<!-- begin left column -->
+																<table width="200" align="left" border="0" cellpadding="0" cellspacing="0" class="devicewidth">
+																	<tbody>
+																		<!-- begin image -->
+																		<tr>
+																			<td width="200" height="150" align="center" class="devicewidth">
+																				<img src="https://imgplaceholder.com/200x150/cccccc/333333" alt="" border="0" width="200" height="150" style="display:block; border:none; outline:none; text-decoration:none;" class="col2img">
+																			</td>
+																		</tr>
+																		<!-- end image -->
+																	</tbody>
+																</table>
+																<!-- end left column -->
+																<!-- begin spacing-mobiledevices -->
+																<table align="left" border="0" cellpadding="0" cellspacing="0" class="mobilespacing">
+																	<tbody>
+																		<tr>
+																			<td width="100%" height="15" style="font-size:1px; line-height:1px; mso-line-height-rule: exactly;">&nbsp;</td>
+																		</tr>
+																	</tbody>
+																</table>
+																<!-- end spacing-mobiledevices -->
+																<!-- begin right column -->
+																<table width="300" align="right" border="0" cellpadding="0" cellspacing="0" class="devicewidthinner">
+																	<tbody>
+																		<tr>
+																			<td style="font-family: Helvetica, arial, sans-serif; font-size: 16px; color: #2d2a26; text-align:left; line-height: 16px;" class="padding-top-right15">
+																				Your Heading Goes Here
+																			</td>
+																		</tr>
+																		<!-- end of title -->
+																		<!-- spacing -->
+																		<tr>
+																			<td width="100%" height="15" style="font-size:1px; line-height:1px; mso-line-height-rule: exactly;">&nbsp;</td>
+																		</tr>
+																		<!-- spacing -->
+																		<!-- begin content -->
+																		<tr>
+																			<td style="font-family: Helvetica, arial, sans-serif; font-size: 14px; color: #7a6e67; text-align:left; line-height: 24px;" class="padding-right15">
+																				Lorem ipsum dolor sit amet, <strong>consectetur</strong> adipisicing elit, sed do eiusmod
+																				tempor incididunt ut labore et dolore magna 
+																			</td>
+																		</tr>
+																		<tr>
+																			<td width="100%" height="9" style="font-size:1px; line-height:1px; mso-line-height-rule: exactly;">&nbsp;</td>
+																		</tr>
+																		<tr>
+																			<td style="font-family: Helvetica, arial, sans-serif; font-size: 14px; color: #7a6e67; text-align:left; line-height: 14px;" class="padding-right15">
+																				&mdash; Onur OZCAN
+																			</td>
+																		</tr>
+																		<tr>
+																			<td width="100%" height="10" style="font-size:1px; line-height:1px; mso-line-height-rule: exactly;">&nbsp;</td>
+																		</tr>
+																		<tr>
+																			<td style="font-family: Helvetica, arial, sans-serif; font-size: 11px; color: #c1bfbd; text-align:left; line-height: 15px;" class="padding-right15">
+																				Bu e-mail size ototmatik olarak gonderilmistir. Setting the task as completed will automatically generate a new task and display an e-mail message containing your boilerplate text. Click Send to send the message.
+																			</td>
+																		</tr>
+																		<!-- end content -->
+																	</tbody>
+																</table>
+																<!-- end right column -->
+															</td>
+														</tr>
+													</tbody>
+												</table>
+											</td>
+										</tr>
+										<!-- spacing -->
+										<tr>
+											<td height="8" style="font-size:1px; line-height:1px; mso-line-height-rule: exactly;">&nbsp;</td>
+										</tr>
+										<!-- spacing -->
+										<!-- spacing -->
+										<tr>
+											<td height="8" bgcolor="#0476c7" style="font-size:1px; line-height:1px; mso-line-height-rule: exactly;">&nbsp;</td>
+										</tr>
+										<!-- spacing -->
+									</tbody>
+								</table>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</td>
+		</tr>
+		<tr>
+			<td height="11" style="font-size:1px; line-height:1px; mso-line-height-rule: exactly;">&nbsp;</td>
+		</tr>
+	</tbody>
+</table>
+<!-- end leftimagetext -->
+
+
+
+
+
+<!-- begin textarea -->
+<table width="100%" bgcolor="#f7f7f7" cellpadding="0" cellspacing="0" border="0" id="backgroundTable" st-sortable="left-image">
+	<tbody>
+		 <tr>
+			<td height="11" style="font-size:1px; line-height:1px; mso-line-height-rule: exactly;">&nbsp;</td>
+		</tr>
+		<tr>
+			<td>
+				<table width="600" cellpadding="0" cellspacing="0" border="0" align="center" class="devicewidth">
+					<tbody>
+						<tr>
+							<td width="100%">
+								<table bgcolor="#ffffff" width="600" cellpadding="0" cellspacing="0" border="0" align="center" class="devicewidth">
+									<tbody>
+										<!-- spacing -->
+										<tr>
+											<td height="15" style="font-size:1px; line-height:1px; mso-line-height-rule: exactly;">&nbsp;</td>
+										</tr>
+										<!-- spacing -->
+										<tr>
+											<td>
+												<table width="550" cellpadding="0" cellspacing="0" border="0" align="center" class="devicewidth">
+													<tbody>
+														<tr>
+															<td>
+																<!-- begin right column -->
+																<table width="550" align="right" border="0" cellpadding="0" cellspacing="0" class="devicewidthinner">
+																	<tbody>
+																		<tr>
+																			<td style="font-family: Helvetica, arial, sans-serif; font-size: 16px; color: #2d2a26; text-align:left; line-height: 16px;" class="padding-top-right15">
+																			  textarea1 Title
+																			</td>
+																		</tr>
+																		<tr>
+																			<td width="100%" height="9" style="font-size:1px; line-height:1px; mso-line-height-rule: exactly;">&nbsp;</td>
+																		</tr>
+																		<tr>
+																			<td style="font-family: Helvetica, arial, sans-serif; font-size: 14px; color: #7a6e67; text-align:left; line-height: 24px;" class="padding-right15">
+																				<strong>Lorem ipsum</strong> dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+																				tempor incididunt ut labore et dolore magna 
+																			</td>
+																		</tr>
+																		<tr>
+																			<td width="100%" height="9" style="font-size:1px; line-height:1px; mso-line-height-rule: exactly;">&nbsp;</td>
+																		</tr>
+																		<tr>
+																			<td style="font-family: Helvetica, arial, sans-serif; font-size: 14px; color: #7a6e67; text-align:left; line-height: 14px;" class="padding-right15">
+																				&mdash; Onur OZCAN
+																			</td>
+																		</tr>
+																		<tr>
+																			<td width="100%" height="10" style="font-size:1px; line-height:1px; mso-line-height-rule: exactly;">&nbsp;</td>
+																		</tr>
+																		<tr>
+																			<td style="font-family: Helvetica, arial, sans-serif; font-size: 11px; color: #c1bfbd; text-align:left; line-height: 15px;" class="padding-right15">
+																				Bu e-mail size ototmatik olarak gonderilmistir. Setting the task as completed will automatically generate a new task and display an e-mail message containing your boilerplate text. Click Send to send the message.
+																			</td>
+																		</tr>
+																	</tbody>
+																</table>
+															</td>
+														</tr>
+													</tbody>
+												</table>
+											</td>
+										</tr>
+										<!-- spacing -->
+										<tr>
+											<td height="8" style="font-size:1px; line-height:1px; mso-line-height-rule: exactly;">&nbsp;</td>
+										</tr>
+										<!-- spacing -->
+										<!-- spacing -->
+										<tr>
+											<td height="8" bgcolor="#0476c7" style="font-size:1px; line-height:1px; mso-line-height-rule: exactly;">&nbsp;</td>
+										</tr>
+										<!-- spacing -->
+									</tbody>
+								</table>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</td>
+		</tr>
+		<tr>
+			<td height="11" style="font-size:1px; line-height:1px; mso-line-height-rule: exactly;">&nbsp;</td>
+		</tr>
+	</tbody>
+</table>
+<!-- end textarea -->
+
+
+
+
+
+<!-- begin 4columns product -->
+<table width="100%" bgcolor="#f7f7f7" cellpadding="0" cellspacing="0" border="0" id="backgroundTable">
+	<tbody>
+		<tr>
+			<td height="11" style="font-size:1px; line-height:1px; mso-line-height-rule: exactly;">&nbsp;</td>
+		</tr>
+		<tr>
+			<td>
+				<table width="600" cellpadding="0" cellspacing="0" border="0" align="center" class="devicewidth">
+					<tbody>
+						<tr>
+							<td width="100%">
+								<table width="600" cellpadding="0" cellspacing="0" border="0" align="center" class="devicewidth">
+									<tbody>
+										<tr>
+											<td>
+
+												<!-- begin col 1 -->
+												<table bgcolor="#ffffff" width="133" align="left" border="0" cellpadding="0" cellspacing="0" class="devicewidth">
+													<tbody>
+														<!-- begin image 1 -->
+														<tr>
+															<td width="133" height="250" align="center" class="devicewidth">
+																<img src="https://imgplaceholder.com/133x250/cccccc/333333" alt="" border="0" width="133" height="250" style="display:block; border:none; outline:none; text-decoration:none;">
+															</td>
+														</tr>
+														<!-- end image 1 -->
+														<tr>
+															<td>
+																<!-- begin text content table 1 -->  
+																<table width="133" align="center" border="0" cellpadding="0" cellspacing="0" class="devicewidthinner">
+																	<tbody>
+																		<!-- spacing -->
+																		<tr>
+																			<td width="100%" height="1" style="font-size:1px; line-height:1px; mso-line-height-rule: exactly;">&nbsp;</td>
+																		</tr>
+																		<!-- spacing -->
+																		<!-- begin title 1 -->
+																		<tr>
+																			<td style="font-family: Helvetica, arial, sans-serif; font-size: 14px; color: #222222; text-align:center; line-height: 24px;" st-title="3col-title1">
+																				Black Jacket
+																			</td>
+																		</tr>
+																		<!-- end title 1 -->
+																		<!-- begin price 1 -->
+																		<tr>
+																			<td style="font-family: Helvetica, arial, sans-serif; font-size: 14px; color: #903537;  text-align:center; line-height: 20px;" st-title="3col-price">
+																				$50
+																			</td>
+																		</tr>
+																		<!-- end price 1 -->
+																	</tbody>
+																</table>
+																<!-- end content table 1 -->
+															</td>
+														</tr>
+													</tbody>
+												</table>
+												<!-- end col 1 -->
+
+												<!-- spacing -->
+												<table width="20" align="left" border="0" cellpadding="0" cellspacing="0" class="removeMobile">
+													<tbody>
+														<tr>
+															<td width="100%" height="15" style="font-size:1px; line-height:1px; mso-line-height-rule: exactly;">&nbsp;</td>
+														</tr>
+													</tbody>
+												</table>
+												<!-- end of spacing -->
+
+												<!-- begin col 2 -->
+												<table bgcolor="#ffffff" width="133" align="left" border="0" cellpadding="0" cellspacing="0" class="devicewidth">
+													<tbody>
+														<!-- begin image 2 -->
+														<tr>
+															<td width="133" height="250" align="center" class="devicewidth">
+																<img src="https://imgplaceholder.com/133x250/cccccc/333333" alt="" border="0" width="133" height="250" style="display:block; border:none; outline:none; text-decoration:none;">
+															</td>
+														</tr>
+														<!-- end image 2 -->
+														<tr>
+															<td>
+																<!-- begin text content table 2 -->  
+																<table width="133" align="center" border="0" cellpadding="0" cellspacing="0" class="devicewidthinner">
+																	<tbody>
+																		<!-- spacing -->
+																		<tr>
+																			<td width="100%" height="1" style="font-size:1px; line-height:1px; mso-line-height-rule: exactly;">&nbsp;</td>
+																		</tr>
+																		<!-- spacing -->
+																		<!-- begin title 2 -->
+																		<tr>
+																			<td style="font-family: Helvetica, arial, sans-serif; font-size: 14px; color: #222222; text-align:center; line-height: 24px;" st-title="3col-title1">
+																				Black Jacket
+																			</td>
+																		</tr>
+																		<!-- end title 2 -->
+																		<!-- begin price 2 -->
+																		<tr>
+																			<td style="font-family: Helvetica, arial, sans-serif; font-size: 14px; color: #903537;  text-align:center; line-height: 20px;" st-title="3col-price">
+																				$50
+																			</td>
+																		</tr>
+																		<!-- end price 2 -->
+																	</tbody>
+																</table>
+																<!-- end content table 2 -->
+															</td>
+														</tr>
+													</tbody>
+												</table>
+												<!-- end col 2 -->
+
+												<!-- spacing -->
+												<table width="20" align="left" border="0" cellpadding="0" cellspacing="0" class="removeMobile">
+													<tbody>
+														<tr>
+															<td width="100%" height="15" style="font-size:1px; line-height:1px; mso-line-height-rule: exactly;">&nbsp;</td>
+														</tr>
+													</tbody>
+												</table>
+												<!-- end of spacing -->
+
+												<!-- begin col 3 -->
+												<table bgcolor="#ffffff" width="133" align="left" border="0" cellpadding="0" cellspacing="0" class="devicewidth">
+													<tbody>
+														<!-- begin image 3 -->
+														<tr>
+															<td width="133" height="250" align="center" class="devicewidth">
+																<img src="https://imgplaceholder.com/133x250/cccccc/333333" alt="" border="0" width="133" height="250" style="display:block; border:none; outline:none; text-decoration:none;">
+															</td>
+														</tr>
+														<!-- end image 3 -->
+														<tr>
+															<td>
+																<!-- begin text content table 3 -->  
+																<table width="133" align="center" border="0" cellpadding="0" cellspacing="0" class="devicewidthinner">
+																	<tbody>
+																		<!-- spacing -->
+																		<tr>
+																			<td width="100%" height="1" style="font-size:1px; line-height:1px; mso-line-height-rule: exactly;">&nbsp;</td>
+																		</tr>
+																		<!-- spacing -->
+																		<!-- begin title 3 -->
+																		<tr>
+																			<td style="font-family: Helvetica, arial, sans-serif; font-size: 14px; color: #222222; text-align:center; line-height: 24px;" st-title="3col-title1">
+																				Black Jacket
+																			</td>
+																		</tr>
+																		<!-- end title 3 -->
+																		<!-- begin price 3 -->
+																		<tr>
+																			<td style="font-family: Helvetica, arial, sans-serif; font-size: 14px; color: #903537;  text-align:center; line-height: 20px;" st-title="3col-price">
+																				$50
+																			</td>
+																		</tr>
+																		<!-- end price 3 -->
+																	</tbody>
+																</table>
+																<!-- end content table 3 -->
+															</td>
+														</tr>
+													</tbody>
+												</table>
+												<!-- end col 3 -->
+
+												<!-- spacing -->
+												<table width="20" align="left" border="0" cellpadding="0" cellspacing="0" class="removeMobile">
+													<tbody>
+														<tr>
+															<td width="100%" height="15" style="font-size:1px; line-height:1px; mso-line-height-rule: exactly;">&nbsp;</td>
+														</tr>
+													</tbody>
+												</table>
+												<!-- end of spacing -->
+
+												<!-- begin col 4 -->
+												<table bgcolor="#ffffff" width="133" align="left" border="0" cellpadding="0" cellspacing="0" class="devicewidth">
+													<tbody>
+														<!-- begin image 4 -->
+														<tr>
+															<td width="133" height="250" align="center" class="devicewidth">
+																<img src="https://imgplaceholder.com/133x250/cccccc/333333" alt="" border="0" width="133" height="250" style="display:block; border:none; outline:none; text-decoration:none;">
+															</td>
+														</tr>
+														<!-- end image 4 -->
+														<tr>
+															<td>
+																<!-- begin text content table 4 -->  
+																<table width="133" align="center" border="0" cellpadding="0" cellspacing="0" class="devicewidthinner">
+																	<tbody>
+																		<!-- spacing -->
+																		<tr>
+																			<td width="100%" height="1" style="font-size:1px; line-height:1px; mso-line-height-rule: exactly;">&nbsp;</td>
+																		</tr>
+																		<!-- spacing -->
+																		<!-- begin title 4 -->
+																		<tr>
+																			<td style="font-family: Helvetica, arial, sans-serif; font-size: 14px; color: #222222; text-align:center; line-height: 24px;" st-title="3col-title1">
+																				Black Jacket
+																			</td>
+																		</tr>
+																		<!-- end title 4 -->
+																		<!-- begin price 4 -->
+																		<tr>
+																			<td style="font-family: Helvetica, arial, sans-serif; font-size: 14px; color: #903537;  text-align:center; line-height: 20px;" st-title="3col-price">
+																				$50
+																			</td>
+																		</tr>
+																		<!-- end price 4 -->
+																	</tbody>
+																</table>
+																<!-- end content table 4 -->
+															</td>
+														</tr>
+													</tbody>
+												</table>
+												<!-- end col 4 -->
+
+											</td>
+										</tr>
+									</tbody>
+								</table>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</td>
+		</tr>
+		<tr>
+			<td height="11" style="font-size:1px; line-height:1px; mso-line-height-rule: exactly;">&nbsp;</td>
+		</tr>
+	</tbody>
+</table>
+<!-- end 4columns product -->
+
+
+
+
+<!-- begin 4columns ship -->
+<table width="100%" bgcolor="#f7f7f7" cellpadding="0" cellspacing="0" border="0" id="backgroundTable">
+	<tbody>
+		<tr>
+			<td height="11" style="font-size:1px; line-height:1px; mso-line-height-rule: exactly;">&nbsp;</td>
+		</tr>
+		<tr>
+			<td>
+				<table width="600" cellpadding="0" cellspacing="0" border="0" align="center" class="devicewidth">
+					<tbody>
+						<tr>
+							<td width="100%">
+								<table width="600" cellpadding="0" cellspacing="0" border="0" align="center" class="devicewidth">
+									<tbody>
+										<tr>
+											<td>
+
+												<!-- begin ship col 1 -->
+												<table bgcolor="#ff6363" width="131" align="left" border="2" bordercolor="#e9e9e9" cellpadding="0" cellspacing="0" class="devicewidth" style="border: 2px solid #e9e9e9;">
+													<tbody>
+														<tr>
+															<td>
+																<!-- begin ship 1 table -->  
+																<table width="131" align="center" border="0" cellpadding="0" cellspacing="0" class="devicewidth">
+																	<tbody>
+																		<tr>
+																			<td style="height: 25px; font-family: Helvetica, arial, sans-serif; font-size: 12px; font-weight: normal; color: #222222; text-align:center; line-height: 12px; border-bottom: 1px dashed #e9e9e9;">
+																				Character Limit 17
+																			</td>
+																		</tr>
+																		<tr>
+																			<td style="height: 25px; font-family: Helvetica, arial, sans-serif; font-size: 13px; font-weight: bold; color: #222222; text-align:center; line-height: 13px;">
+																				19-2436
+																			</td>
+																		</tr>
+																		<tr>
+																			<td>
+																				<table width="131" align="center" border="0" cellpadding="0" cellspacing="0" class="devicewidth">
+																					<tbody>
+																						<tr>
+																							<td width="75%" style="height:30px; font-family: Helvetica, arial, sans-serif; font-size: 13px; font-weight: bold; background-color: #3598dc; color: #ffffff; text-align:center; line-height: 13px;">
+																								$9,999.88
+																							</td>
+																							 <td width="25%" style="height:30px; font-family: Helvetica, arial, sans-serif; font-size: 13px; font-weight: bold; background-color: #26c281; color: #ffffff; text-align:center; line-height: 13px;">
+																								199
+																							</td>
+																						</tr>
+																					</tbody>
+																				</table>
+																			</td>
+																		</tr>
+																	</tbody>
+																</table>
+																<!-- end ship 1 table --> 
+															</td>
+														</tr>
+													</tbody>
+												</table>
+												<!-- end ship col 1 -->
+
+												<!-- spacing -->
+												<table width="20" align="left" border="0" cellpadding="0" cellspacing="0" class="removeMobile">
+													<tbody>
+														<tr>
+															<td width="100%" height="15" style="font-size:1px; line-height:1px; mso-line-height-rule: exactly;">&nbsp;</td>
+														</tr>
+													</tbody>
+												</table>
+												<!-- end of spacing -->
+
+												<!-- begin ship col 2 -->
+
+
+												<table bgcolor="#ffffff" width="131" align="left" border="2" bordercolor="#e9e9e9" cellpadding="0" cellspacing="0" class="devicewidth" style="border: 2px solid #e9e9e9;">
+													<tbody>
+														<tr>
+															<td>
+																<!-- begin ship 2 table -->  
+																<table width="131" align="center" border="0" cellpadding="0" cellspacing="0" class="devicewidth">
+																	<tbody>
+																		<tr>
+																			<td style="height: 25px; font-family: Helvetica, arial, sans-serif; font-size: 12px; font-weight: normal; color: #222222; text-align:center; line-height: 12px; border-bottom: 1px dashed #e9e9e9;">
+																				Customer Name 
+																			</td>
+																		</tr>
+																		<tr>
+																			<td style="height: 25px; font-family: Helvetica, arial, sans-serif; font-size: 13px; font-weight: bold; color: #222222; text-align:center; line-height: 13px;">
+																				18-2436
+																			</td>
+																		</tr>
+																		<tr>
+																			<td>
+																				<table width="131" align="center" border="0" cellpadding="0" cellspacing="0" class="devicewidth">
+																					<tbody>
+																						<tr>
+																							<td width="75%" style="height:30px; font-family: Helvetica, arial, sans-serif; font-size: 13px; font-weight: bold; background-color: #3598dc; color: #ffffff; text-align:center; line-height: 13px;">
+																								$9,999.88
+																							</td>
+																							 <td width="25%" style="height:30px; font-family: Helvetica, arial, sans-serif; font-size: 13px; font-weight: bold; background-color: #26c281; color: #ffffff; text-align:center; line-height: 13px;">
+																								199
+																							</td>
+																						</tr>
+																					</tbody>
+																				</table>
+																			</td>
+																		</tr>
+																	</tbody>
+																</table>
+																<!-- end ship 2 table --> 
+															</td>
+														</tr>
+													</tbody>
+												</table>
+												<!-- end ship col 2 -->
+
+												<!-- spacing -->
+												<table width="20" align="left" border="0" cellpadding="0" cellspacing="0" class="removeMobile">
+													<tbody>
+														<tr>
+															<td width="100%" height="15" style="font-size:1px; line-height:1px; mso-line-height-rule: exactly;">&nbsp;</td>
+														</tr>
+													</tbody>
+												</table>
+												<!-- end of spacing -->
+
+												<!-- begin ship col 3 -->
+												<table bgcolor="#ffffff" width="131" align="left" border="2" bordercolor="#e9e9e9" cellpadding="0" cellspacing="0" class="devicewidth" style="border: 2px solid #e9e9e9;">
+													<tbody>
+														<tr>
+															<td>
+																<!-- begin ship 3 table -->  
+																<table width="131" align="center" border="0" cellpadding="0" cellspacing="0" class="devicewidth">
+																	<tbody>
+																		<tr>
+																			<td style="height: 25px; font-family: Helvetica, arial, sans-serif; font-size: 12px; font-weight: normal; color: #222222; text-align:center; line-height: 12px; border-bottom: 1px dashed #e9e9e9;">
+																				Customer Name
+																			</td>
+																		</tr>
+																		<tr>
+																			<td style="height: 25px; font-family: Helvetica, arial, sans-serif; font-size: 13px; font-weight: bold; color: #222222; text-align:center; line-height: 13px;">
+																				18-2436
+																			</td>
+																		</tr>
+																		<tr>
+																			<td>
+																				<table width="131" align="center" border="0" cellpadding="0" cellspacing="0" class="devicewidth">
+																					<tbody>
+																						<tr>
+																							<td width="75%" style="height:30px; font-family: Helvetica, arial, sans-serif; font-size: 13px; font-weight: bold; background-color: #3598dc; color: #ffffff; text-align:center; line-height: 13px;">
+																								$9,999.88
+																							</td>
+																							 <td width="25%" style="height:30px; font-family: Helvetica, arial, sans-serif; font-size: 13px; font-weight: bold; background-color: #26c281; color: #ffffff; text-align:center; line-height: 13px;">
+																								199
+																							</td>
+																						</tr>
+																					</tbody>
+																				</table>
+																			</td>
+																		</tr>
+																	</tbody>
+																</table>
+																<!-- end ship 3 table --> 
+															</td>
+														</tr>
+													</tbody>
+												</table>
+												<!-- end ship col 3 -->
+
+												<!-- spacing -->
+												<table width="20" align="left" border="0" cellpadding="0" cellspacing="0" class="removeMobile">
+													<tbody>
+														<tr>
+															<td width="100%" height="15" style="font-size:1px; line-height:1px; mso-line-height-rule: exactly;">&nbsp;</td>
+														</tr>
+													</tbody>
+												</table>
+												<!-- end of spacing -->
+
+												<!-- begin ship col 4 -->
+												<table bgcolor="#ffffff" width="131" align="left" border="2" bordercolor="#e9e9e9" cellpadding="0" cellspacing="0" class="devicewidth" style="border: 2px solid #e9e9e9;">
+													<tbody>
+														<tr>
+															<td>
+																<!-- begin ship 4 table -->  
+																<table width="131" align="center" border="0" cellpadding="0" cellspacing="0" class="devicewidth">
+																	<tbody>
+																		<tr>
+																			<td style="height: 25px; font-family: Helvetica, arial, sans-serif; font-size: 12px; font-weight: normal; color: #222222; text-align:center; line-height: 12px; border-bottom: 1px dashed #e9e9e9;">
+																				Customer Name
+																			</td>
+																		</tr>
+																		<tr>
+																			<td style="height: 25px; font-family: Helvetica, arial, sans-serif; font-size: 13px; font-weight: bold; color: #222222; text-align:center; line-height: 13px;">
+																				18-2436
+																			</td>
+																		</tr>
+																		<tr>
+																			<td>
+																				<table width="131" align="center" border="0" cellpadding="0" cellspacing="0" class="devicewidth">
+																					<tbody>
+																						<tr>
+																							<td width="75%" style="height:30px; font-family: Helvetica, arial, sans-serif; font-size: 13px; font-weight: bold; background-color: #3598dc; color: #ffffff; text-align:center; line-height: 13px;">
+																								$9,999.88
+																							</td>
+																							 <td width="25%" style="height:30px; font-family: Helvetica, arial, sans-serif; font-size: 13px; font-weight: bold; background-color: #26c281; color: #ffffff; text-align:center; line-height: 13px;">
+																								199
+																							</td>
+																						</tr>
+																					</tbody>
+																				</table>
+																			</td>
+																		</tr>
+																	</tbody>
+																</table>
+																<!-- end ship 4 table --> 
+															</td>
+														</tr>
+													</tbody>
+												</table>
+												<!-- end ship col 4 -->
+											</td>
+										</tr>
+									</tbody>
+								</table>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</td>
+		</tr>
+		<tr>
+			<td height="11" style="font-size:1px; line-height:1px; mso-line-height-rule: exactly;">&nbsp;</td>
+		</tr>
+	</tbody>
+</table>
+<!-- end 4columns ship -->
+
+
+
+
+
+
+
+
+
+<!-- begin 4columns summary -->
+<table width="100%" bgcolor="#f7f7f7" cellpadding="0" cellspacing="0" border="0" id="backgroundTable">
+	<tbody>
+		<tr>
+			<td height="11" style="font-size:1px; line-height:1px; mso-line-height-rule: exactly;">&nbsp;</td>
+		</tr>
+		<tr>
+			<td>
+				<table width="600" cellpadding="0" cellspacing="0" border="0" align="center" class="devicewidth">
+					<tbody>
+						<tr>
+							<td width="100%">
+								<table width="600" cellpadding="0" cellspacing="0" border="0" align="center" class="devicewidth">
+									<tbody>
+										<tr>
+											<td>
+
+												<!-- begin summary col 1 -->
+												<table bgcolor="#ffffff" width="131" align="left" border="2" bordercolor="#e9e9e9" cellpadding="0" cellspacing="0" class="devicewidth" style="border: 2px solid #e9e9e9;">
+													<tbody>
+														<tr>
+															<td>  
+																<table width="131" align="center" border="0" cellpadding="0" cellspacing="0" class="devicewidth">
+																	<tbody>
+																		<tr>
+																			<td style="height: 30px; font-family: Helvetica, arial, sans-serif; font-size: 14px; font-weight: normal; color: #222222; text-align:center; line-height: 14px; border-bottom: 1px dashed #e9e9e9">
+																				Total Amount
+																			</td>
+																		</tr>
+																		<tr>
+																			<td style="height: 70px; font-family: Helvetica, arial, sans-serif; font-size: 19px; font-weight: bold; color: #222222; text-align:center; line-height: 19px;">
+																				$77,777.00
+																			</td>
+																		</tr>
+																	</tbody>
+																</table>
+															</td>
+														</tr>
+													</tbody>
+												</table>
+												<!-- end summary col 1 -->
+
+												<!-- spacing -->
+												<table width="20" align="left" border="0" cellpadding="0" cellspacing="0" class="removeMobile">
+													<tbody>
+														<tr>
+															<td width="100%" height="15" style="font-size:1px; line-height:1px; mso-line-height-rule: exactly;">&nbsp;</td>
+														</tr>
+													</tbody>
+												</table>
+												<!-- spacing -->
+
+
+
+												<!-- begin summary col 2 -->
+												<table bgcolor="#ffffff" width="131" align="left" border="2" bordercolor="#e9e9e9" cellpadding="0" cellspacing="0" class="devicewidth" style="border: 2px solid #e9e9e9;">
+													<tbody>
+														<tr>
+															<td>
+																<table width="131" align="center" border="0" cellpadding="0" cellspacing="0" class="devicewidth">
+																	<tbody>
+																		<tr>
+																			<td style="height: 30px; font-family: Helvetica, arial, sans-serif; font-size: 14px; font-weight: normal; color: #222222; text-align:center; line-height: 14px; border-bottom: 1px dashed #e9e9e9;">
+																				Total Ship
+																			</td>
+																		</tr>
+																		<tr>
+																			<td style="height: 70px; font-family: Helvetica, arial, sans-serif; font-size: 19px; font-weight: bold; color: #222222; text-align:center; line-height: 19px;">
+																				24
+																			</td>
+																		</tr>
+																	</tbody>
+																</table>
+															</td>
+														</tr>
+													</tbody>
+												</table>
+												<!-- edn summary col 2 -->
+
+												<!-- spacing -->
+												<table width="20" align="left" border="0" cellpadding="0" cellspacing="0" class="removeMobile">
+													<tbody>
+														<tr>
+															<td width="100%" height="15" style="font-size:1px; line-height:1px; mso-line-height-rule: exactly;">&nbsp;</td>
+														</tr>
+													</tbody>
+												</table>
+												<!-- end of spacing -->
+
+												<!-- begin summary col 3 -->
+												<table bgcolor="#ffffff" width="131" align="left" border="2" bordercolor="#e9e9e9" cellpadding="0" cellspacing="0" class="devicewidth" style="border: 2px solid #e9e9e9;">
+													<tbody>
+														<tr>
+															<td>
+																<table width="131" align="center" border="0" cellpadding="0" cellspacing="0" class="devicewidth">
+																	<tbody>
+																		<tr>
+																			<td style="height: 30px; font-family: Helvetica, arial, sans-serif; font-size: 14px; font-weight: normal; color: #222222; text-align:center; line-height: 14px; border-bottom: 1px dashed #e9e9e9;">
+																				Total Photo
+																			</td>
+																		</tr>
+																		<tr>
+																			<td style="height: 70px; font-family: Helvetica, arial, sans-serif; font-size: 19px; font-weight: bold; color: #222222; text-align:center; line-height: 19px;">
+																				81
+																			</td>
+																		</tr>
+																	</tbody>
+																</table>
+															</td>
+														</tr>
+													</tbody>
+												</table>
+												<!-- end summary col 3 -->
+
+												<!-- spacing -->
+												<table width="20" align="left" border="0" cellpadding="0" cellspacing="0" class="removeMobile">
+													<tbody>
+														<tr>
+															<td width="100%" height="15" style="font-size:1px; line-height:1px; mso-line-height-rule: exactly;">&nbsp;</td>
+														</tr>
+													</tbody>
+												</table>
+												<!-- end of spacing -->
+
+												<!-- begin summary col 4 -->
+												<table bgcolor="#ffffff" width="131" align="left" border="2" bordercolor="#e9e9e9" cellpadding="0" cellspacing="0" class="devicewidth" style="border: 2px solid #e9e9e9;">
+													<tbody>
+														<tr>
+															<td>  
+																<table width="131" align="left" border="0" cellpadding="0" cellspacing="0" class="devicewidth">
+																	<tbody>
+																		<tr>
+																			<td width="75%" style="height: 32px; font-family: Helvetica, arial, sans-serif; font-size: 12px; font-weight: normal; color: #222222; text-align:left; padding-left: 5px; line-height: 12px; border-bottom: 1px dashed #e9e9e9;">
+																				Open Ship
+																			</td>
+																			<td width="25%" bgcolor="#26c281" style="height: 32px; font-family: Helvetica, arial, sans-serif; font-size: 14px; font-weight: normal; color: #ffffff; text-align:center; line-height: 14px;">
+																				&#10004;
+																			</td>
+																		</tr>
+
+																		<tr>
+																			<td style="height: 32px; font-family: Helvetica, arial, sans-serif; font-size: 12px; font-weight: normal; color: #222222; text-align:left; padding-left: 5px; line-height: 12px; border-bottom: 1px dashed #e9e9e9;">
+																				Missing Pricing
+																			</td>
+																			</td>
+																			<td bgcolor="#26c281" style="height: 33px; font-family: Helvetica, arial, sans-serif; font-size: 14px; font-weight: normal; color: #ffffff; text-align:center; line-height: 14px;">
+																				1
+																			</td>
+																		</tr>
+
+																		<tr>
+																			<td style="height: 32px; font-family: Helvetica, arial, sans-serif; font-size: 12px; font-weight: normal; color: #222222; text-align:left; padding-left: 5px; line-height: 12px;">
+																				Missing Photo
+																			</td>
+																			<td bgcolor="#e43a45" style="height: 33px; font-family: Helvetica, arial, sans-serif; font-size: 14px; font-weight: normal; color: #ffffff; text-align:center; line-height: 14px;">
+																				19
+																			</td>
+																		</tr>
+																	</tbody>
+																</table>
+															</td>
+														</tr>
+													</tbody>
+												</table>
+												<!-- end summary col 4 -->
+												
+										</tr>
+									</tbody>
+								</table>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</td>
+		</tr>
+		<tr>
+			<td height="11" style="font-size:1px; line-height:1px; mso-line-height-rule: exactly;">&nbsp;</td>
+		</tr>
+	</tbody>
+</table>
+<!-- end 4columns summary -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- 3 columns -->
+<table width="100%" bgcolor="#f7f7f7" cellpadding="0" cellspacing="0" border="0" id="backgroundTable">
+	<tbody>
+		<tr>
+			<td height="11" style="font-size:1px; line-height:1px; mso-line-height-rule: exactly;">&nbsp;</td>
+		</tr>
+		<tr>
+			<td>
+				<table width="600" cellpadding="0" cellspacing="0" border="0" align="center" class="devicewidth">
+					<tbody>
+						<tr>
+							<td width="100%">
+								<table width="600" cellpadding="0" cellspacing="0" border="0" align="center" class="devicewidth">
+									<tbody>
+										<tr>
+											<td>
+												<!-- col 1 -->
+												<table bgcolor="#ffffff" width="186" align="left" border="0" cellpadding="0" cellspacing="0" class="devicewidth">
+													<tbody>
+														<!-- image 1 -->
+														<tr>
+															<td width="186" height="250" align="center" class="devicewidth">
+																<img src="https://imgplaceholder.com/186x250/cccccc/333333" alt="" border="0" width="186" height="250" style="display:block; border:none; outline:none; text-decoration:none;">
+															</td>
+														</tr>
+														<!-- end of image1 -->
+														<tr>
+															<td>
+																<!-- start of text content table -->  
+																<table width="186" align="center" border="0" cellpadding="0" cellspacing="0" class="devicewidthinner">
+																	<tbody>
+																		<!-- Spacing -->
+																		<tr>
+																			<td width="100%" height="5" style="font-size:1px; line-height:1px; mso-line-height-rule: exactly;">&nbsp;</td>
+																		</tr>
+																		<!-- Spacing -->
+																		<!-- title1 -->
+																		<tr>
+																			<td style="font-family: Helvetica, arial, sans-serif; font-size: 14px; color: #222222; text-align:center; line-height: 24px;" st-title="3col-title1">
+																				Black Jacket
+																			</td>
+																		</tr>
+																		<!-- end of title1 -->
+																		<!-- read more -->
+																		<tr>
+																			<td style="font-family: Helvetica, arial, sans-serif; font-size: 14px; color: #903537;  text-align:center; line-height: 20px;" st-title="3col-price">
+																				$50
+																			</td>
+																		</tr>
+																		<!-- end of read more -->
+																	</tbody>
+																</table>
+															</td>
+														</tr>
+														<!-- end of text content table -->
+													</tbody>
+												</table>
+												<!-- spacing -->
+												<table width="20" align="left" border="0" cellpadding="0" cellspacing="0" class="removeMobile">
+													<tbody>
+														<tr>
+															<td width="100%" height="15" style="font-size:1px; line-height:1px; mso-line-height-rule: exactly;">&nbsp;</td>
+														</tr>
+													</tbody>
+												</table>
+												<!-- end of spacing -->
+												<!-- col 2 -->
+												<table bgcolor="#ffffff" width="186" align="left" border="0" cellpadding="0" cellspacing="0" class="devicewidth">
+													<tbody>
+														<!-- image 2 -->
+														<tr>
+															<td width="186" height="250" align="center" class="devicewidth">
+																<img src="https://imgplaceholder.com/186x250/cccccc/333333" alt="" border="0" width="186" height="250" style="display:block; border:none; outline:none; text-decoration:none;">
+															</td>
+														</tr>
+														<!-- end of image2 -->
+														<tr>
+															<td>
+																<!-- start of text content table -->  
+																<table width="186" align="center" border="0" cellpadding="0" cellspacing="0" class="devicewidthinner">
+																	<tbody>
+																		<!-- Spacing -->
+																		<tr>
+																			<td width="100%" height="5" style="font-size:1px; line-height:1px; mso-line-height-rule: exactly;">&nbsp;</td>
+																		</tr>
+																		<!-- Spacing -->
+																		<!-- title2 -->
+																		<tr>
+																			<td style="font-family: Helvetica, arial, sans-serif; font-size: 14px; color: #222222; text-align:center; line-height: 24px;" st-title="3col-title2">
+																				Black Jacket
+																			</td>
+																		</tr>
+																		<!-- end of title2 -->
+																		<!-- read more -->
+																		<tr>
+																			<td style="font-family: Helvetica, arial, sans-serif; font-size: 14px; color: #903537;  text-align:center; line-height: 20px;" st-title="3col-readmore2">
+																				$50
+																			</td>
+																		</tr>
+																		<!-- end of read more -->
+																	</tbody>
+																</table>
+															</td>
+														</tr>
+														<!-- end of text content table -->
+													</tbody>
+												</table>
+												<!-- end of col 2 -->
+												<!-- spacing -->
+												<table width="1" align="left" border="0" cellpadding="0" cellspacing="0" class="removeMobile">
+													<tbody>
+														<tr>
+															<td width="100%" height="15" style="font-size:1px; line-height:1px; mso-line-height-rule: exactly;">&nbsp;</td>
+														</tr>
+													</tbody>
+												</table>
+												<!-- end of spacing -->
+												<!-- col 3 -->
+												<table bgcolor="#ffffff" width="186" align="right" border="0" cellpadding="0" cellspacing="0" class="devicewidth">
+													<tbody>
+														<!-- image3 -->
+														<tr>
+															<td width="186" height="250" align="center" class="devicewidth">
+																<img src="https://imgplaceholder.com/186x250/cccccc/333333" alt="" border="0" width="186" height="250" style="display:block; border:none; outline:none; text-decoration:none;">
+															</td>
+														</tr>
+														<!-- end of image3 -->
+														<tr>
+															<td>
+																<!-- start of text content table -->  
+																<table width="186" align="center" border="0" cellpadding="0" cellspacing="0" class="devicewidthinner">
+																	<tbody>
+																		<!-- Spacing -->
+																		<tr>
+																			<td width="100%" height="5" style="font-size:1px; line-height:1px; mso-line-height-rule: exactly;">&nbsp;</td>
+																		</tr>
+																		<!-- Spacing -->
+																		<!-- title -->
+																		<tr>
+																			<td style="font-family: Helvetica, arial, sans-serif; font-size: 14px; color: #222222; text-align:center; line-height: 24px;" st-title="3col-title3">
+																				Black Jacket
+																			</td>
+																		</tr>
+																		<!-- end of title -->
+																		<!-- read more -->
+																		<tr>
+																			<td style="font-family: Helvetica, arial, sans-serif; font-size: 14px; color: #903537;  text-align:center; line-height: 20px;" st-title="3col-readmore3">
+																				$50
+																			</td>
+																		</tr>
+																		<!-- end of read more -->
+																	</tbody>
+																</table>
+															</td>
+														</tr>
+														<!-- end of text content table -->
+													</tbody>
+												</table>
+											</td>
+											<!-- spacing -->
+											<!-- end of spacing -->
+										</tr>
+									</tbody>
+								</table>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</td>
+		</tr>
+		<tr>
+			<td height="11" style="font-size:1px; line-height:1px; mso-line-height-rule: exactly;">&nbsp;</td>
+		</tr>
+	</tbody>
+</table>
+<!-- end of 3 columns -->
+<!-- start of call to action -->
+<table width="100%" bgcolor="#f7f7f7" cellpadding="0" cellspacing="0" border="0" id="backgroundTable">
+	<tbody>
+		<tr>
+			<td height="11" style="font-size:1px; line-height:1px; mso-line-height-rule: exactly;">&nbsp;</td>
+		</tr>
+		<tr>
+			<td>
+				<table width="600" cellpadding="0" cellspacing="0" border="0" align="center" class="devicewidth">
+					<tbody>
+						<tr>
+							<td width="100%">
+								<table bgcolor="#0476c7" width="600" cellpadding="0" cellspacing="0" border="0" align="center" class="devicewidth">
+									<tbody>
+										<!-- Spacing -->
+										<tr>
+											<td height="20"></td>
+										</tr>
+										<!-- Spacing -->
+										<tr>
+											<td>
+												<table width="560" align="center" border="0" cellpadding="0" cellspacing="0" class="devicewidthinner">
+													<tbody>
+														<tr>
+															<td>
+																<!-- start left column-->
+																<table width="280" align="left" border="0" cellpadding="0" cellspacing="0" class="devicewidthinner">
+																	<tbody>
+																		<tr>
+																			<!-- title -->
+																		</tr>
+																		<tr>
+																			<td style="font-family: Helvetica, arial, sans-serif; font-size: 24px; font-weight:400; color: #ffffff; text-align:left; line-height: 30px;">
+																				Use this coupon for a
+																				10% Discount
+																			</td>
+																		</tr>
+																		<!-- end of title -->
+																	</tbody>
+																</table>
+																<!-- end of left column -->
+																<!-- spacing for mobile -->
+																<table width="1" height="10" align="left" border="0" cellpadding="0" cellspacing="0" class="devicewidthinner">
+																	<tbody>
+																		<tr>
+																			<td width="1" height="10" align="center" style="font-size:1px; line-height:1px;">&nbsp;</td>
+																		</tr>
+																	</tbody>
+																</table>
+																<!-- end spacing for mobile -->
+																<!-- start of right column -->
+																<table width="270" align="right" border="0" cellpadding="0" cellspacing="0" class="devicewidthinner">
+																	<tbody>
+																		<!-- button -->
+																		<tr>
+																			<td>
+																				<table width="270" height="60" bgcolor="#025188" align="center" valign="middle" border="0" cellpadding="0" cellspacing="0" style="border-radius:3px;" class="tablet-button">
+																					<tbody>
+																						<tr>
+																							<td height="15" align="center" style="font-size:1px; line-height:1px;">&nbsp;</td>
+																						</tr>
+																						<tr>
+																							<td height="30" align="center" valign="middle" style="font-family: Helvetica, arial, sans-serif;  font-size: 24px;color: #ffffff; text-align:center;line-height: 30px;" class="tablet-button">
+																								<a style="color: #ffffff; text-align:center;text-decoration: none;" href="#">AWESOME</a>
+																							</td>
+																						</tr>
+																						<tr>
+																							<td height="15" align="center" style="font-size:1px; line-height:1px;">&nbsp;</td>
+																						</tr>
+																					</tbody>
+																				</table>
+																			</td>
+																		</tr>
+																		<!-- end of button -->
+																	</tbody>
+																</table>
+																<!-- end of right column -->
+															</td>
+														</tr>
+													</tbody>
+												</table>
+											</td>
+										</tr>
+										<!-- Spacing -->
+										<tr>
+											<td height="20"></td>
+										</tr>
+										<!-- Spacing -->
+									</tbody>
+								</table>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</td>
+		</tr>
+		<tr>
+			<td height="11" style="font-size:1px; line-height:1px; mso-line-height-rule: exactly;">&nbsp;</td>
+		</tr>
+	</tbody>
+</table>
+<!-- end of call to action -->
+<!-- begin on backround information -->
+<table width="100%" bgcolor="#f7f7f7" cellpadding="0" cellspacing="0" border="0" id="backgroundTable" st-sortable="preheader" >
+	<tbody>
+		<tr>
+			<td height="11" style="font-size:1px; line-height:1px; mso-line-height-rule: exactly;">&nbsp;</td>
+		</tr>
+		<tr>
+			<td>
+				<table width="600" cellpadding="0" cellspacing="0" border="0" align="center" class="devicewidth">
+					<tbody>
+						<tr>
+							<td width="100%">
+								<table width="600" cellpadding="0" cellspacing="0" border="0" align="center" class="devicewidth">
+									<tbody>
+										<tr>
+											<td>
+												<table width="600" align="left" border="0" cellpadding="0" cellspacing="0" class="devicewidth">
+													<tbody>
+														<tr>
+															<td align="left" valign="middle" style="font-family: Helvetica, arial, sans-serif; font-size: 12px;color: #666666" st-content="viewonline">
+																If you do not want to hear from us please 
+															</td>
+														</tr>
+													</tbody>
+												</table>
+											</td>
+										</tr>
+									</tbody>
+								</table>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</td>
+		</tr>
+		<tr>
+			<td height="11" style="font-size:1px; line-height:1px; mso-line-height-rule: exactly;">&nbsp;</td>
+		</tr>
+	</tbody>
+</table>
+<!-- end on backround information -->
+
+
+
+
+<!-- Start of postfooter -->
+<table width="100%" bgcolor="#f7f7f7" cellpadding="0" cellspacing="0" border="0" id="backgroundTable" st-sortable="preheader" >
+	<tbody>
+		<tr>
+			<td>
+				<table width="600" bgcolor="#fefefe"  cellpadding="0" cellspacing="0" border="0" align="center" class="devicewidth">
+					<tbody>
+						<tr>
+							<td>
+								<!-- begin left column -->
+								<table width="400" height="70" align="left" border="0" cellpadding="0" cellspacing="0" class="devicewidth">
+									<tbody>
+										<tr>
+											<td align="center" class="devicewidth" align="center" valign="middle" style="font-family: Helvetica, arial, sans-serif; font-size: 12px; color: #999999; text-align:center; height: 70px;">
+												<p>USA MARBLE LLC</p>
+												<p>700 NW 33rd St Suite #290 Pompano Beach, FL 33064</p>
+												<p>Phone: 954-590-2900 | Fax: 954-590-29-01</p>
+											</td>
+										</tr>
+									</tbody>
+								</table>
+								<!-- end left column -->
+								<!-- begin right column -->
+								<table width="195" height="70" align="right" border="0" cellpadding="0" cellspacing="0" class="devicewidth">
+									<tbody>
+										<tr>
+											<td align="center" class="devicewidth" valign="middle" style="font-family: Helvetica, arial, sans-serif; font-size: 11px; color: #999999; text-align:center; height: 70px;">
+												<p>powered by</p><img src="http://www.theusamarble.com/_depot/stockgenius/phpmailer/img/stockgenius-footer.png" alt="StockGenius" style="vertical-align:middle;">
+											</td>
+										</tr>
+									</tbody>
+								</table>
+								<!-- end right column -->
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</td>
+		</tr>
+	</tbody>
+</table>
+<!-- End of postfooter -->
+
+	</body>
+	</html>
