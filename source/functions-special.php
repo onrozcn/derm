@@ -1,9 +1,9 @@
 <?php
 @$filename = $_SERVER["REQUEST_URI"];
-if (preg_match("/functions-special.php/", $filename)) {
-    header("Location:../");
-    die();
-}
+//if (preg_match("/functions-special.php/", $filename)) {
+//    header("Location:../");
+//    die();
+//}
 
 
 /////////////////////////////////////////////////////////////////////////////////////////////////
